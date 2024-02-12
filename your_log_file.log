@@ -1,0 +1,2585 @@
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=RuntimeError('Cannot run the event loop while another loop is running')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1609, in starter_react_to_subscribe_show
+    loop.run_until_complete(react_to_subscribe_show(call))
+  File "C:\Python38\lib\asyncio\base_events.py", line 592, in run_until_complete
+    self._check_running()
+  File "C:\Python38\lib\asyncio\base_events.py", line 554, in _check_running
+    raise RuntimeError(
+RuntimeError: Cannot run the event loop while another loop is running
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=RuntimeError('Cannot run the event loop while another loop is running')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1609, in starter_react_to_subscribe_show
+    loop.run_until_complete(await react_to_subscribe_show(call))
+  File "C:\Python38\lib\asyncio\base_events.py", line 592, in run_until_complete
+    self._check_running()
+  File "C:\Python38\lib\asyncio\base_events.py", line 554, in _check_running
+    raise RuntimeError(
+RuntimeError: Cannot run the event loop while another loop is running
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=RuntimeError('Cannot run the event loop while another loop is running')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1609, in starter_react_to_subscribe_show
+    loop.run_until_complete(react_to_subscribe_show(call))
+  File "C:\Python38\lib\asyncio\base_events.py", line 592, in run_until_complete
+    self._check_running()
+  File "C:\Python38\lib\asyncio\base_events.py", line 554, in _check_running
+    raise RuntimeError(
+RuntimeError: Cannot run the event loop while another loop is running
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=RuntimeError('Cannot run the event loop while another loop is running')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1609, in starter_react_to_subscribe_show
+    await loop.run_until_complete(react_to_subscribe_show(call))
+  File "C:\Python38\lib\asyncio\base_events.py", line 592, in run_until_complete
+    self._check_running()
+  File "C:\Python38\lib\asyncio\base_events.py", line 554, in _check_running
+    raise RuntimeError(
+RuntimeError: Cannot run the event loop while another loop is running
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=RuntimeError('Cannot run the event loop while another loop is running')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1610, in starter_react_to_subscribe_show
+    loop.run_until_complete(future)
+  File "C:\Python38\lib\asyncio\base_events.py", line 592, in run_until_complete
+    self._check_running()
+  File "C:\Python38\lib\asyncio\base_events.py", line 554, in _check_running
+    raise RuntimeError(
+RuntimeError: Cannot run the event loop while another loop is running
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=RuntimeError('Cannot run the event loop while another loop is running')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1610, in starter_react_to_subscribe_show
+    loop.run_until_complete(future)
+  File "C:\Python38\lib\asyncio\base_events.py", line 592, in run_until_complete
+    self._check_running()
+  File "C:\Python38\lib\asyncio\base_events.py", line 554, in _check_running
+    raise RuntimeError(
+RuntimeError: Cannot run the event loop while another loop is running
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=RuntimeError('Cannot run the event loop while another loop is running')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1610, in starter_react_to_subscribe_show
+    loop.run_until_complete(future)
+  File "C:\Python38\lib\asyncio\base_events.py", line 592, in run_until_complete
+    self._check_running()
+  File "C:\Python38\lib\asyncio\base_events.py", line 554, in _check_running
+    raise RuntimeError(
+RuntimeError: Cannot run the event loop while another loop is running
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=RuntimeError('Cannot run the event loop while another loop is running')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1610, in starter_react_to_subscribe_show
+    loop.run_until_complete(future)
+  File "C:\Python38\lib\asyncio\base_events.py", line 592, in run_until_complete
+    self._check_running()
+  File "C:\Python38\lib\asyncio\base_events.py", line 554, in _check_running
+    raise RuntimeError(
+RuntimeError: Cannot run the event loop while another loop is running
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("cannot pickle 'coroutine' object")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1627, in start_sub
+    multiprocessing.Process(target=asyncio.run, args=(react_to_subscribe_show(call),), name='proc-2', daemon=True).start()
+  File "C:\Python38\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Python38\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Python38\lib\multiprocessing\context.py", line 327, in _Popen
+    return Popen(process_obj)
+  File "C:\Python38\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Python38\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+TypeError: cannot pickle 'coroutine' object
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<active() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:451> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\utils\executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "C:\Python38\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "C:\Python38\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Python38\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 471, in active
+    db = collection.find_one({'chats': chat_id})
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\collection.py", line 1470, in find_one
+    for result in cursor.limit(-1):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\cursor.py", line 1251, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\cursor.py", line 1168, in _refresh
+    self.__send_message(q)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\cursor.py", line 1055, in __send_message
+    response = client._run_operation(
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\_csot.py", line 106, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\mongo_client.py", line 1341, in _run_operation
+    return self._retryable_read(
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\_csot.py", line 106, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\mongo_client.py", line 1465, in _retryable_read
+    return func(session, server, sock_info, read_pref)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\mongo_client.py", line 1337, in _cmd
+    return server.run_operation(
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\helpers.py", line 279, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\server.py", line 116, in run_operation
+    reply = sock_info.receive_message(request_id)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\pool.py", line 933, in receive_message
+    self._raise_connection_failure(error)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\pool.py", line 931, in receive_message
+    return receive_message(self, request_id, self.max_message_size)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\network.py", line 217, in receive_message
+    _receive_data_on_socket(sock_info, 16, deadline)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pymongo\network.py", line 299, in _receive_data_on_socket
+    chunk_length = sock_info.sock.recv_into(mv[bytes_read:])
+  File "C:\Python38\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Python38\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("cannot pickle 'weakref' object")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1632, in start_sub
+    multiprocessing.Process(target=start_subb, args=(call,), name='proc-2', daemon=True).start()
+  File "C:\Python38\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Python38\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Python38\lib\multiprocessing\context.py", line 327, in _Popen
+    return Popen(process_obj)
+  File "C:\Python38\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Python38\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+TypeError: cannot pickle 'weakref' object
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("cannot pickle 'weakref' object")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1632, in start_sub
+    multiprocessing.Process(target=start_subb, args=(call,), name='proc-2', daemon=True).start()
+  File "C:\Python38\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Python38\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Python38\lib\multiprocessing\context.py", line 327, in _Popen
+    return Popen(process_obj)
+  File "C:\Python38\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Python38\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+TypeError: cannot pickle 'weakref' object
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("cannot pickle 'weakref' object")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\ASUS\Desktop\GRModera\handlers\callback.py", line 1632, in start_sub
+    multiprocessing.Process(target=start_subb, args=(call,), name='proc-2', daemon=True).start()
+  File "C:\Python38\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Python38\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Python38\lib\multiprocessing\context.py", line 327, in _Popen
+    return Popen(process_obj)
+  File "C:\Python38\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Python38\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+TypeError: cannot pickle 'weakref' object
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<active() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:451> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 453, in active
+    chat_ids = collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['groups']
+TypeError: '_asyncio.Future' object is not subscriptable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<active_lic_end_func() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:522> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 524, in active_lic_end_func
+    chat_ids = collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['chat_with_lics']
+TypeError: '_asyncio.Future' object is not subscriptable
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<active() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:451> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 453, in active
+    chat_ids = collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['groups']
+TypeError: '_asyncio.Future' object is not subscriptable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<active_lic_end_func() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:522> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 524, in active_lic_end_func
+    chat_ids = collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['chat_with_lics']
+TypeError: '_asyncio.Future' object is not subscriptable
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<active() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:451> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 453, in active
+    chat_ids = await collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['groups']
+TypeError: '_asyncio.Future' object is not subscriptable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<active_lic_end_func() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:522> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 524, in active_lic_end_func
+    chat_ids = await collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['chat_with_lics']
+TypeError: '_asyncio.Future' object is not subscriptable
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<active() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:451> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 453, in active
+    chat_ids = await collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['groups']
+TypeError: '_asyncio.Future' object is not subscriptable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<active_lic_end_func() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:522> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 524, in active_lic_end_func
+    chat_ids = await collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['chat_with_lics']
+TypeError: '_asyncio.Future' object is not subscriptable
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<active() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:409> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 411, in active
+    chat_ids = await collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['groups']
+TypeError: '_asyncio.Future' object is not subscriptable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<active_lic_end_func() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:480> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 482, in active_lic_end_func
+    chat_ids = await collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['chat_with_lics']
+TypeError: '_asyncio.Future' object is not subscriptable
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<active() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:409> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 411, in active
+    chat_ids = await collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['groups']
+TypeError: '_asyncio.Future' object is not subscriptable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<active_lic_end_func() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:480> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 482, in active_lic_end_func
+    chat_ids = await collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['chat_with_lics']
+TypeError: '_asyncio.Future' object is not subscriptable
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<active() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:409> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 411, in active
+    chat_ids = await collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['groups']
+TypeError: '_asyncio.Future' object is not subscriptable
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<active_lic_end_func() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:480> exception=TypeError("'_asyncio.Future' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 482, in active_lic_end_func
+    chat_ids = await collection.find_one({"_id": ObjectId('64987b1eeed9918b13b0e8b4')})['chat_with_lics']
+TypeError: '_asyncio.Future' object is not subscriptable
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<get_chat_users() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:78> exception=AttributeError('MEMBERS')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 80, in get_chat_users
+    async for user in papp.get_chat_members(chat_id=-1001749926117, filter=pyrogram.enums.ChatMembersFilter.MEMBERS):
+  File "C:\Python38\lib\enum.py", line 384, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: MEMBERS
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<get_chat_users() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:78> exception=AttributeError('MEMBERS')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 80, in get_chat_users
+    async for user in papp.get_chat_members(chat_id=-1001749926117, filter=pyrogram.enums.ChatMembersFilter.MEMBERS):
+  File "C:\Python38\lib\enum.py", line 384, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: MEMBERS
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+WARNING:aiogram:Goodbye!
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<send_error_log() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:318> exception=ConnectionError('Client is already initialized')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 319, in send_error_log
+    async with papp:
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\client.py", line 311, in __aenter__
+    return await self.start()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\utilities\start.py", line 74, in start
+    await self.initialize()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\auth\initialize.py", line 44, in initialize
+    raise ConnectionError("Client is already initialized")
+ConnectionError: Client is already initialized
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<send_error_log() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:318> exception=ConnectionError('Client is already initialized')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 319, in send_error_log
+    async with papp:
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\client.py", line 311, in __aenter__
+    return await self.start()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\utilities\start.py", line 74, in start
+    await self.initialize()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\auth\initialize.py", line 44, in initialize
+    raise ConnectionError("Client is already initialized")
+ConnectionError: Client is already initialized
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<send_error_log() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:318> exception=ConnectionError('Client is already initialized')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 319, in send_error_log
+    async with papp:
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\client.py", line 311, in __aenter__
+    return await self.start()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\utilities\start.py", line 74, in start
+    await self.initialize()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\auth\initialize.py", line 44, in initialize
+    raise ConnectionError("Client is already initialized")
+ConnectionError: Client is already initialized
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<send_error_log() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:319> exception=ConnectionError('Client is already initialized')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 320, in send_error_log
+    async with papp:
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\client.py", line 311, in __aenter__
+    return await self.start()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\utilities\start.py", line 74, in start
+    await self.initialize()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\auth\initialize.py", line 44, in initialize
+    raise ConnectionError("Client is already initialized")
+ConnectionError: Client is already initialized
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+WARNING:pyrogram.session.session:[my_account] Waiting for 5 seconds before continuing (required by "users.GetFullUser")
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+INFO:pyrogram.session.session:[1] Retrying "users.GetFullUser" due to: Connection lost
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+INFO:pyrogram.session.session:[2] Retrying "users.GetFullUser" due to: Connection lost
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+INFO:pyrogram.session.session:[3] Retrying "users.GetFullUser" due to: Connection lost
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+INFO:pyrogram.session.session:[4] Retrying "users.GetFullUser" due to: Connection lost
+WARNING:asyncio:socket.send() raised exception.
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+INFO:pyrogram.session.session:[5] Retrying "users.GetFullUser" due to: Connection lost
+WARNING:asyncio:socket.send() raised exception.
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+INFO:pyrogram.session.session:[6] Retrying "users.GetFullUser" due to: Connection lost
+WARNING:asyncio:socket.send() raised exception.
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+INFO:pyrogram.session.session:[7] Retrying "users.GetFullUser" due to: Connection lost
+WARNING:asyncio:socket.send() raised exception.
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+INFO:pyrogram.session.session:[8] Retrying "users.GetFullUser" due to: Connection lost
+WARNING:asyncio:socket.send() raised exception.
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+INFO:pyrogram.session.session:[9] Retrying "users.GetFullUser" due to: Connection lost
+WARNING:asyncio:socket.send() raised exception.
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+WARNING:pyrogram.session.session:[10] Retrying "users.GetFullUser" due to: Connection lost
+WARNING:asyncio:socket.send() raised exception.
+INFO:pyrogram.connection.transport.tcp.tcp:Send exception: ConnectionResetError Connection lost
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-112' coro=<send_error_log() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:319> exception=OSError(ConnectionResetError('Connection lost'))>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 320, in send_error_log
+    async with papp:
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\client.py", line 311, in __aenter__
+    return await self.start()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\utilities\start.py", line 73, in start
+    self.me = await self.get_me()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\users\get_me.py", line 41, in get_me
+    r = await self.invoke(
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\session\session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\session\session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\session\session.py", line 412, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  [Previous line repeated 7 more times]
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\session\session.py", line 402, in invoke
+    raise e from None
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\session\session.py", line 340, in send
+    raise e
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\session\session.py", line 337, in send
+    await self.connection.send(payload)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\connection\connection.py", line 69, in send
+    await self.protocol.send(data)
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\connection\transport\tcp\tcp_abridged.py", line 38, in send
+    await super().send(
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\connection\transport\tcp\tcp.py", line 104, in send
+    raise OSError(e)
+OSError: Connection lost
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<send_error_log() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:319> exception=ConnectionError('Client is already initialized')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 320, in send_error_log
+    async with papp:
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\client.py", line 311, in __aenter__
+    return await self.start()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\utilities\start.py", line 74, in start
+    await self.initialize()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\auth\initialize.py", line 44, in initialize
+    raise ConnectionError("Client is already initialized")
+ConnectionError: Client is already initialized
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-81' coro=<send_error_log() done, defined at C:\Users\ASUS\Desktop\GRModera\data\configs.py:344> exception=ConnectionError('Client is already initialized')>
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\GRModera\data\configs.py", line 345, in send_error_log
+    async with papp:
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\client.py", line 311, in __aenter__
+    return await self.start()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\utilities\start.py", line 74, in start
+    await self.initialize()
+  File "C:\Users\ASUS\Desktop\GRModera\venv\lib\site-packages\pyrogram\methods\auth\initialize.py", line 44, in initialize
+    raise ConnectionError("Client is already initialized")
+ConnectionError: Client is already initialized
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+WARNING:pyrogram.session.session:[my_account] Waiting for 4 seconds before continuing (required by "users.GetFullUser")
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: shieldsword [@shieldsword_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:pyrogram.connection.connection:Connecting...
+INFO:pyrogram.connection.connection:Connected! Production DC2 - IPv4
+INFO:pyrogram.session.session:NetworkTask started
+INFO:pyrogram.session.session:Session initialized: Layer 158
+INFO:pyrogram.session.session:Device: CPython 3.8.9 - Pyrogram 2.0.106
+INFO:pyrogram.session.session:System: Windows 10 (en)
+INFO:pyrogram.session.session:Session started
+INFO:pyrogram.session.session:PingTask started
+INFO:pyrogram.dispatcher:Started 12 HandlerTasks
+INFO:pyrogram.dispatcher:Stopped 12 HandlerTasks
+INFO:pyrogram.session.session:PingTask stopped
+INFO:pyrogram.connection.connection:Disconnected
+INFO:pyrogram.session.session:NetworkTask stopped
+INFO:pyrogram.session.session:Session stopped
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
